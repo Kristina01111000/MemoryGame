@@ -68,6 +68,9 @@ document.addEventListener('DOMContentLoaded', () => {
     var cardId = this.getAttribute('data-id');
     cardsChosen.push(cardArray[cardId].name)
     cardsChosenId.push(cardId);
+    if(cardsChosen.length === 2){
+      setTimeout(checkForMatch(),500);
+    }
   }
 
 createBoard();
