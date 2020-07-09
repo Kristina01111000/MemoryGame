@@ -49,7 +49,9 @@ document.addEventListener('DOMContentLoaded', () => {
     img: 'images/yellow.png'
   }
 ]
-
+  const grid = document.querySelector('.grid');
+  var cardsChosen[];
+  
   // create your board
   function createBoard() {
     for (let i = 0; i < cardArray.length; i++) {
