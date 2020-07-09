@@ -1,54 +1,54 @@
 document.addEventListener('DOMContentLoaded', () => {
   const cardArray = [
-    {
-      name: 'blue',
-      img: 'images/blue'
-    },
-    {
-      name: 'blue',
-      img: 'images/blue'
-    },
-    {
-      name: 'green',
-      img: 'images/green'
-    },
-    {
-      name: 'green',
-      img: 'images/green'
-    },
-    {
-      name: 'orange',
-      img: 'images/orange'
-    },
-    {
-      name: 'orange',
-      img: 'images/orange'
-    },
-    {
-      name: 'purple',
-      img: 'images/purple'
-    },
-    {
-      name: 'purple',
-      img: 'images/purple'
-    },
-    {
-      name: 'red',
-      img: 'images/red'
-    },
-    {
-      name: 'red',
-      img: 'images/red'
-    },
-    {
-      name: 'yellow',
-      img: 'images/yellow'
-    }
-    {
-      name: 'yellow',
-      img: 'images/yellow'
-    }
-  ]
+  {
+    name: 'blue',
+    img: 'images/blue.png'
+  },
+  {
+    name: 'blue',
+    img: 'images/blue.png'
+  },
+  {
+    name: 'green',
+    img: 'images/green.png'
+  },
+  {
+    name: 'green',
+    img: 'images/green.png'
+  },
+  {
+    name: 'orange',
+    img: 'images/orange.png'
+  },
+  {
+    name: 'orange',
+    img: 'images/orange.png'
+  },
+  {
+    name: 'purple',
+    img: 'images/purple.png'
+  },
+  {
+    name: 'purple',
+    img: 'images/purple.png'
+  },
+  {
+    name: 'red',
+    img: 'images/red.png'
+  },
+  {
+    name: 'red',
+    img: 'images/red.png'
+  },
+  {
+    name: 'yellow',
+    img: 'images/yellow.png'
+  },
+  {
+    name: 'yellow',
+    img: 'images/yellow.png'
+  }
+]
 
   // create your board
   function createBoard() {
