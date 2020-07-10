@@ -8,6 +8,5 @@ Basic memory game using javascript
 to do:
 
 - have a game reset button
-- get rid of the alerts
-- put data in the result id?
 - add timer
+- add margins
