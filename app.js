@@ -50,8 +50,8 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 ]
   const grid = document.querySelector('.grid');
-  var cardsChosen[];
-  var cardsChosenId[];
+  var cardsChosen = [];
+  var cardsChosenId = [];
   
   // create your board
   function createBoard() {
