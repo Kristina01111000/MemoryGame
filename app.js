@@ -100,6 +100,7 @@ document.addEventListener('DOMContentLoaded', () => {
     resultDisplay.textContent = 'Score: ' + cardsWon.length;
     if  (cardsWon.length === cardArray.length/2) {
       resultDisplay.textContent = 'Congratulations! You found them all!';
+      wordsDisplay.textContent ='';
     }
   }
   //flip your card
