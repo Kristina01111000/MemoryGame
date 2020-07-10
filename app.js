@@ -56,6 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const grid = document.querySelector('.grid');
   const resultDisplay = document.querySelector('#result');
+  const wordsDisplay = document.querySelector('#words');
   var cardsChosen = [];
   var cardsChosenId = [];
   const cardsWon = [];
@@ -80,10 +81,10 @@ document.addEventListener('DOMContentLoaded', () => {
     if(optionOneId == optionTwoId) {
       cards[optionOneId].setAttribute('src', 'images/blank.png');
       cards[optionTwoId].setAttribute('src', 'images/blank.png');
-      alert('You have clicked the same image!');
+      wordsDisplay.textContent ='You have clicked the same image!';
     }
     else if (cardsChosen[0] === cardsChosen[1]) {
-      alert('You found a match');
+      wordsDisplay.textContent = 'You found a match';
       cards[optionOneId].setAttribute('src', 'images/black.png');
       cards[optionTwoId].setAttribute('src', 'images/black.png');
       cards[optionOneId].removeEventListener('click', flipCard);
@@ -92,7 +93,7 @@ document.addEventListener('DOMContentLoaded', () => {
     } else {
       cards[optionOneId].setAttribute('src', 'images/blank.png');
       cards[optionTwoId].setAttribute('src', 'images/blank.png');
-      alert('Sorry, try again');
+      wordsDisplay.textContent ='Sorry, try again';
     }
     cardsChosen = [];
     cardsChosenId = [];
