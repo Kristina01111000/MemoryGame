@@ -51,8 +51,16 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   ]
 
-  // sort the cards
-  cardArray.sort(() => 0.5 - Math.random());
+  // shuffle the cards (Fisher-yates)
+
+  function shuffle(cardArray){
+    var currentIndex = array.length;
+    var tempValuee;
+    var randomIndex;
+
+
+    
+  }
 
   const grid = document.querySelector('.grid');
   const resultDisplay = document.querySelector('#result');
