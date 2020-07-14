@@ -55,11 +55,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function shuffle(cardArray){
     var currentIndex = array.length;
-    var tempValuee;
+    var tempValue;
     var randomIndex;
-
-
-    
+    while(currentIndex > 0){
+      randomIndex = Math.floor(Math.random()* currentIndex);
+      currentIndex--;
+      tempValue = cardArray[currentIndex];
+      cardArray[currentIndex] = cardArray[randomIndex];
+      cardArray[randomIndex] = tempValue;
+    }
+    return cardArray;
   }
 
   const grid = document.querySelector('.grid');
