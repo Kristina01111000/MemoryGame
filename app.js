@@ -126,5 +126,6 @@ document.addEventListener('DOMContentLoaded', () => {
       setTimeout(checkForMatch, 500);
     }
   }
+  shuffle(cardArray);
   createBoard();
 })
