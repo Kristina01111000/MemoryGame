@@ -10,3 +10,4 @@ to do:
 - have a game reset button
 - add timer
 - add margins
+- fix the shuffle method, its not good 
