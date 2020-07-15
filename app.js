@@ -6,14 +6,6 @@ document.addEventListener('DOMContentLoaded', () => {
       img: 'images/blue.png'
     },
     {
-      name: 'blue',
-      img: 'images/blue.png'
-    },
-    {
-      name: 'green',
-      img: 'images/green.png'
-    },
-    {
       name: 'green',
       img: 'images/green.png'
     },
@@ -22,20 +14,8 @@ document.addEventListener('DOMContentLoaded', () => {
       img: 'images/red.png'
     },
     {
-      name: 'red',
-      img: 'images/red.png'
-    },
-    {
       name: 'orange',
       img: 'images/orange.png'
-    },
-    {
-      name: 'orange',
-      img: 'images/orange.png'
-    },
-    {
-      name: 'yellow',
-      img: 'images/yellow.png'
     },
     {
       name: 'yellow',
@@ -44,6 +24,26 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       name: 'purple',
       img: 'images/purple.png'
+    },
+    {
+      name: 'blue',
+      img: 'images/blue.png'
+    },
+    {
+      name: 'green',
+      img: 'images/green.png'
+    },
+    {
+      name: 'red',
+      img: 'images/red.png'
+    },
+    {
+      name: 'orange',
+      img: 'images/orange.png'
+    },
+    {
+      name: 'yellow',
+      img: 'images/yellow.png'
     },
     {
       name: 'purple',
