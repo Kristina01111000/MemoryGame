@@ -74,10 +74,14 @@ document.addEventListener('DOMContentLoaded', () => {
   const resultDisplay = document.querySelector('#result');
   const wordsDisplay = document.querySelector('#words');
   const movesDisplay = document.querySelector('#moves');
+  const timerDisplay = document.querySelector('#timer');
   let moves = 0;
   var cardsChosen = [];
   var cardsChosenId = [];
   const cardsWon = [];
+  var second = 0;
+  var minute = 0;
+  var interval;
 
   //create  board
   function createBoard() {
