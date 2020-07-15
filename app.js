@@ -138,6 +138,17 @@ document.addEventListener('DOMContentLoaded', () => {
       setTimeout(checkForMatch, 500);
     }
   }
+  // go up by one second every second
+  function startTimer(){
+    interval = setInterval(function () {
+      timer.textContent = minute + ' minutes ' + second ' seconds';
+      second++;
+      if (second == 60){
+        second = 0;
+        minute++;
+      }            
+    },1000);
+  }
 
   createBoard();
 })
