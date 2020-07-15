@@ -105,10 +105,12 @@ document.addEventListener('DOMContentLoaded', () => {
       cards[optionOneId].removeEventListener('click', flipCard);
       cards[optionTwoId].removeEventListener('click', flipCard);
       cardsWon.push(cardsChosen);
+      moves++;
     } else {
       cards[optionOneId].setAttribute('src', 'images/blank.png');
       cards[optionTwoId].setAttribute('src', 'images/blank.png');
       wordsDisplay.textContent ='Sorry, try again';
+      moves++;
     }
     cardsChosen = [];
     cardsChosenId = [];
