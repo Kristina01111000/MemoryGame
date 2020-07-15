@@ -8,6 +8,6 @@ Basic memory game using javascript
 to do:
 
 - have a game reset button
-- add timer
-- add margins
-- fix the shuffle method, its not good 
+- add timer?
+- fix the shuffle method, its not good
+  - fisher yates shuffle method not allowing game board to load, figure it out later
