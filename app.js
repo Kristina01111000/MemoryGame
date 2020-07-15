@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
   ]
 
   // shuffle the cards (Fisher-yates)
-
+  // doesn't allow game board to load when used, using sort method below
   function shuffle(cardArray){
     var currentIndex = array.length;
     var tempValue;
@@ -67,6 +67,9 @@ document.addEventListener('DOMContentLoaded', () => {
     return cardArray;
   }
 
+  // not a perfect shuffle method, but it works for now
+  cardArray.sort(() => 0.5 - Math.random());
+  
   const grid = document.querySelector('.grid');
   const resultDisplay = document.querySelector('#result');
   const wordsDisplay = document.querySelector('#words');
@@ -131,6 +134,6 @@ document.addEventListener('DOMContentLoaded', () => {
       setTimeout(checkForMatch, 500);
     }
   }
-  shuffle(cardArray);
+
   createBoard();
 })
