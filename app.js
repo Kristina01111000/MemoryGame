@@ -115,6 +115,7 @@ document.addEventListener('DOMContentLoaded', () => {
     cardsChosen = [];
     cardsChosenId = [];
     resultDisplay.textContent = 'Score: ' + cardsWon.length;
+    movesDisplay.textContent = 'Moves: ' + moves;
     if  (cardsWon.length === cardArray.length/2) {
       resultDisplay.textContent = 'Congratulations! You found them all!';
       wordsDisplay.textContent ='Press reset button to play again.';;
