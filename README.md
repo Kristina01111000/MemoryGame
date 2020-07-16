@@ -8,6 +8,7 @@ Basic memory game using javascript
 to do:
 
 - make game reset button work
+  - move it all into start game function?
 - add timer
   - need to figure out how to use 2 intervals at the same time, otherwise the second piece flips too quickly to see when clicked
 - fix the shuffle method, its not good
