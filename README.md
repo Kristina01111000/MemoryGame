@@ -7,8 +7,8 @@ Basic memory game using javascript
 
 to do:
 
-- have a game reset button
+- make game reset button work
 - add timer
-  - current timer function prevents the game board from loading
+  - need to figure out how to use 2 intervals at the same time, otherwise the second piece flips too quickly to see when clicked
 - fix the shuffle method, its not good
   - fisher yates shuffle method not allowing game board to load, figure it out later
