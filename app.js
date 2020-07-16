@@ -139,6 +139,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
   // go up by one second every second
+  /*
   function startTimer(){
     interval = setInterval(function () {
       timer.textContent = minute + ' minutes ' + second ' seconds';
@@ -148,7 +149,7 @@ document.addEventListener('DOMContentLoaded', () => {
         minute++;
       }            
     },1000);
-  }
+  }*/
 
   createBoard();
 })
