@@ -10,3 +10,4 @@ to add/do later:
   - move it all into start game function?
 - add timer
   - need to figure out how to use 2 intervals at the same time, otherwise the second piece flips too quickly to see when clicked
+-  set all of the game start code into a start function --> will fix reset button problem
